@@ -22,5 +22,12 @@ usn=input("Enter the usn in the string format :")
 print("Thank you for visiting the college {} with {}".format(n,usn))
 >>>>>>> b88f72adbdfc23a9605ec13a95d8bab26616adc4
 
+<<<<<<< HEAD
 import matplotlib.pyplot as plt 
 plt.show()
+=======
+
+import pandas as pd
+df=pd.read_csv("Naveen.csv")
+print(df.shape)
+>>>>>>> 3a123667cba806c735d48af9082ea877905c81f8
